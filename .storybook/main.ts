@@ -4,7 +4,15 @@ import { resolve } from "path";
 
 const config: StorybookConfig = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
-  addons: ["@storybook/addon-onboarding", "@storybook/addon-docs"],
+  addons: [
+    "@storybook/addon-onboarding",
+    {
+      name: "@storybook/addon-docs",
+      options: {
+        autodocs: "tag",
+      },
+    },
+  ],
   framework: {
     name: "@storybook/react-vite",
     options: {},
