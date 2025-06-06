@@ -1,3 +1,11 @@
+---
+name: Default Pull Request
+about: 이 풀 리퀘스트는 일반적인 기능 구현 및 버그 수정을 위한 템플릿입니다.
+title: '[유형]: 간결한 PR 제목'
+labels: ['enhancement']
+assignees: ''
+---
+
 ## 🚀 작업 내용 (Task)
 
 이 PR에서 어떤 작업들을 수행했는지 간결하게 요약해 주세요.
