@@ -1,3 +1,11 @@
+---
+name: General Issue / Task
+about: 일반적인 이슈 또는 작업을 위한 템플릿입니다.
+title: "[유형]: 간결한 이슈 요약"
+labels: ["triage"]
+assignees: ''
+---
+
 ## 📌 배경 및 문제 (Background & Problem)
 
 이 이슈가 왜 필요한지, 어떤 문제점을 해결하려는지 설명해 주세요. (버그라면 재현 단계 포함)
